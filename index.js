@@ -60,6 +60,9 @@ run().catch(console.dir);
 app.get('/',(req,res) => {
     res.send('this is appa')
 });
+app.get('/bd', (req,res) => {
+  res.send('thsi is sadaa haaa ahha')
+})
 app.listen(port, () => {
     console.log(`this is port ${port}`); 
 })
